@@ -1,0 +1,8 @@
+{
+  "name": "Minimalist Immersive Portfolio",
+  "description": "Portofolio interaktif dan imersif light mode minimalis karya Samuel Alvin dengan animasi scroll halus dan galeri proyek responsif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
