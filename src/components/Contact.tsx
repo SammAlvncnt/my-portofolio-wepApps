@@ -31,18 +31,16 @@ export default function Contact() {
     setErrorMsg(null);
 
     try {
-      // PASTIKAN: Ganti string di bawah ini dengan ID asli dari dashboard EmailJS Anda
-      // Buka https://dashboard.emailjs.com/
       const result = await emailjs.send(
-        'service_xxxxxxx', // Contoh: 'service_gmail' atau ID unik lainnya
-        'template_xxxxxxx', // Contoh: 'template_abc123'
+        'service_lodfc0r',
+        'template_idjehiq',
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           reply_to: formData.email,
         },
-        'your_public_key_here' // Contoh: 'user_A1B2C3D4...'
+        'jHu7_asm1cxE_nOvC'
       );
 
       if (result.status === 200) {
