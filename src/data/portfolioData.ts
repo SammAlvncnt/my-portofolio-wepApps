@@ -3,7 +3,7 @@ import { Project, Skill, TimelineItem, Testimonial } from '../types';
 export const projectsData: Project[] = [
   {
     id: 'project-retail-sales',
-    title: 'Retail Sales Performaance Analysis',
+    title: 'Retail Sales Performance Analysis',
     subtitle: 'Retail Sales Performance Analysis using SQL, Python, and Power BI',
     description: 'The project demonstrates an end-to-end Data Analyst workflow, starting from raw data cleaning to dashboard visualization and business insight generation.',
     longDescription: 'This project focuses on analyzing retail sales performance using SQL, Python, and Power BI. The objective of this project is to identify sales trends, customer purchasing behavior, payment preferences, and the impact of discounts on overall business performance.',
@@ -40,7 +40,7 @@ export const projectsData: Project[] = [
     {
     id: 'project-ecommerce',
     title: 'E-Commerce Sales Dashboard',
-    subtitle: 'E-Comerce Sales Dashboard visualization using Tableau',
+    subtitle: 'E-Commerce Sales Dashboard visualization using Tableau',
     description: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.',
     longDescription: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.The updated dashboard in Dashboard.png transitions from the default Tableau layout into a cohesive, modern, emerald-themed design that boosts visual hierarchy and readability. By applying the Data-Driven Decision Making (3D+M) process to the metrics shown in Dashboard.png, we can translate our visual data into immediate, actionable business strategies',
     category: 'Dashboard Visualization',
@@ -86,7 +86,7 @@ export const certificationsData: TimelineItem[] = [
     year: '2026',
     role: 'Mahir karir bareng Binus Career & SEFAS Group',
     company: 'Binus Career | Binus University',
-    description: 'Dont just be smart Be heard  How communication skills shape your career, confidence, and oppurtunities',
+    description: 'Don\'t just be smart, be heard. How communication skills shape your career, confidence, and opportunities.',
     achievements: [
       'Participant',
     ]
