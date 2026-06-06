@@ -160,7 +160,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="font-mono text-[9px] sm:text-[11px] uppercase tracking-[0.25em] text-zinc-500 font-bold"
           >
-            BASED IN JAKARTA, ID
+           in development stage | progress 95%
           </motion.p>
         </div>
       </div>
