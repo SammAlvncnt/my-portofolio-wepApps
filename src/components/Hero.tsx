@@ -224,7 +224,7 @@ export default function Hero() {
             >
               {/* Grayscale profile photo */}
               <img
-                src="/src/assets/images/alvin_photo_1780424699601.png"
+                src="/alvin_photo_1780424699601.png"
                 alt="Samuel Alvin Profile Portrait"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 filter contrast-[1.08] duration-500 scale-100 group-hover:scale-105 transition-all"
