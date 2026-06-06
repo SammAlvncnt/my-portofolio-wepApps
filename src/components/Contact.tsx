@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, CheckCircle2, ArrowRight, AlertCircle } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -19,7 +20,7 @@ export default function Contact() {
     if (errorMsg) setErrorMsg(null);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       setErrorMsg('Mohon lengkapi seluruh kolom nama, email, dan pesan Anda.');
@@ -29,11 +30,30 @@ export default function Contact() {
     setIsSubmitting(true);
     setErrorMsg(null);
 
-    // Simulate sending proposal sequence
-    setTimeout(() => {
+    try {
+      // Ganti 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', dan 'YOUR_PUBLIC_KEY' 
+      // dengan ID yang Anda dapatkan dari dashboard EmailJS
+      const result = await emailjs.send(
+        'YOUR_SERVICE_ID', 
+        'YOUR_TEMPLATE_ID', 
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          reply_to: formData.email,
+        },
+        'YOUR_PUBLIC_KEY'
+      );
+
+      if (result.status === 200) {
+        setIsSubmitted(true);
+      }
+    } catch (error) {
+      console.error('EmailJS Error:', error);
+      setErrorMsg('Gagal mengirim pesan. Silakan coba lagi atau hubungi via LinkedIn.');
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-    }, 1200);
+    }
   };
 
   const resetForm = () => {
@@ -54,10 +74,10 @@ export default function Contact() {
         <div className="flex flex-col gap-2.5 mb-16 text-center items-center">
           <span className="font-mono text-[9px] tracking-[0.2em] text-[#2A2A2A] uppercase flex items-center gap-2 font-bold">
             <span className="w-1.5 h-1.5 bg-black" />
-            [ PROTOCOL_04 // COMMUNICATIONS ]
+            [// COMMUNICATIONS ]
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter text-black uppercase font-display leading-none">
-            IDE, SARAN & HUBUNGI DEV
+           CONTACT
           </h2>
           <div className="w-16 h-[1.5px] bg-black mt-2"></div>
         </div>
@@ -83,7 +103,7 @@ export default function Contact() {
                 >
                   <p className="font-mono text-[9px] tracking-wider text-black uppercase flex items-center gap-1.5 font-bold mb-2">
                     <span className="w-1.5 h-1.5 bg-black" />
-                    // NODE_MESSAGE_SERVICE_STARK_ACTIVE // PORT_3000
+                    // MESSAGE_ME // IN THE BELOW
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
