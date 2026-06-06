@@ -69,23 +69,12 @@ export default function Projects() {
           <div className="flex flex-col gap-2.5">
             <span className="font-mono text-[9px] tracking-[0.2em] text-[#2A2A2A] uppercase flex items-center gap-2 font-bold">
               <span className="w-1.5 h-1.5 bg-black" />
-              [ PROTOCOL_02 // SYSTEM_KATALOG ]
+              [ PROJECT | OVERVIEW]
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter text-black uppercase font-display leading-none">
-              KATALOG KARYA & REKAYASA
+              MY Project's
             </h2>
             <div className="w-16 h-[1.5px] bg-black mt-2"></div>
-          </div>
-
-          <div className="flex flex-col gap-2 max-w-md">
-            <p className="text-xs sm:text-sm text-[#2A2A2A] font-light leading-relaxed font-mono">
-              Tekan atau geser (swipe/drag) kartu rasi bintang di bawah ke kiri dan kanan untuk menjelajahi studi kasus utuh secara interaktif.
-            </p>
-            {/* Gesture Hint */}
-            <div className="flex items-center gap-2 font-mono text-[10px] text-[#2A2A2A] font-bold uppercase mt-1">
-              <Hand className="w-3.5 h-3.5 animate-bounce" />
-              <span>Geser Kartu / Swipe Kiri-Kanan</span>
-            </div>
           </div>
         </div>
 

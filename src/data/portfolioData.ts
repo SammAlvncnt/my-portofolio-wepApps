@@ -3,226 +3,51 @@ import { Project, Skill, TimelineItem, Testimonial } from '../types';
 export const projectsData: Project[] = [
   {
     id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
+    title: 'Retail Sales Performaance Analysis',
+    subtitle: 'Retail Sales Performance Analysis using SQL, Python, and Power BI',
+    description: 'The project demonstrates an end-to-end Data Analyst workflow, starting from raw data cleaning to dashboard visualization and business insight generation.',
+    longDescription: 'This project focuses on analyzing retail sales performance using SQL, Python, and Power BI. The objective of this project is to identify sales trends, customer purchasing behavior, payment preferences, and the impact of discounts on overall business performance.',
+    category: 'Data Analysis Pipeline',
+    image: '/dashboardPort1.png',
+    demoUrl: 'https://github.com/SammAlvncnt/retail-sales-performance-analysis',
+    tags: ['SQL', 'Python', 'Power BI'],
   },
 
     {
     id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
+    title: 'Cafe Sales Data Analysis',
+    subtitle: 'Cafe Sales Data Cleaning & Customer Segmentation Analysis',
+    description: 'contains an end-to-end Data Understanding, Quality Assessment, and Data Cleaning project for a café sales dataset. ',
+    longDescription: ' contains an end-to-end Data Understanding, Quality Assessment, and Data Cleaning project for a café sales dataset. The dataset initially contained significant noise, inconsistent types, and missing values that hindered accurate analysis. After a comprehensive data wrangling process, the clean data was segmented to provide actionable business recommendations.',
+    category: 'Data Analysis',
+    image: '/dashboardPort2.png',
+    demoUrl: 'https://github.com/SammAlvncnt/Cafe-salees-cleaning-and-wrangling',
+    tags: ['Python', 'Power BI'],
   },
-
 
     {
     id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
+    title: 'SGD/IDR Exchange Rate Analytics Dashboard',
+    subtitle: 'Singapore Dolar (SGD) to Indonesian Rupiah (IDR) Performance Insight',
+    description: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.',
+    longDescription: 'An end-to-end data engineering and business intelligence project that programmatically extracts and processes historical Singapore Dollar (SGD) to Indonesian Rupiah (IDR) exchange rates using Python, streams the pipeline into Google Sheets, and visualizes interactive financial insights in Power BI.',
+    category: 'Data Analysis',
+    image: '/dashboardPort3.png',
+    demoUrl: 'https://github.com/SammAlvncnt/SGD-IDR-Exchange-Rate-Analytics-Dashboard',
+    tags: ['Y-Finance API', 'Python', 'Power BI', 'Google Sheets Cloud API'],
   },
-
 
     {
     id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
+    title: 'E-Commerce Sales Dashboard',
+    subtitle: 'E-Comerce Sales Dashboard visualization using Tableau',
+    description: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.',
+    longDescription: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.The updated dashboard in Dashboard.png transitions from the default Tableau layout into a cohesive, modern, emerald-themed design that boosts visual hierarchy and readability. By applying the Data-Driven Decision Making (3D+M) process to the metrics shown in Dashboard.png, we can translate our visual data into immediate, actionable business strategies',
+    category: 'Dashboard Visualization',
+    image: '/dashboardPort4.png',
+    demoUrl: 'https://github.com/SammAlvncnt/E-Commerce_Sales_Data_Dashboard',
+    tags: ['Tableau'],
   },
-
-
-    {
-    id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
-  },
-
-
-    {
-    id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
-  },
-
-
-    {
-    id: 'gg',
-    title: 'Lorem ipsum Dolor',
-    subtitle: 'AI-Powered Interior Control Web Interface',
-    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    longDescription: 'Aether adalah antarmuka kontrol rumah pintar generasi berikutnya yang menggabungkan kontrol IoT dengan algoritma kenyamanan ramah cuaca. Proyek ini mengusung estetika industrial Skandinavia dengan palet warna netral, menyederhanakan puluhan kendali rumit menjadi satu papan kontrol gestur yang tenang dan intuitif.',
-    category: 'web',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    demoUrl: 'https://aether-space.example.com',
-    tags: ['SQL', 'Python'],
-    metrics: [
-      { label: 'Respons Waktu IoT', value: '< 18ms' },
-      { label: 'Kepuasan Pengguna', value: '4.9/5.0' },
-      { label: 'Efisiensi Energi', value: '+34%' }
-    ],
-    client: 'Nordic Living Lab Inc.',
-    role: 'Lead Full-stack Engineer & Motion Designer',
-    duration: '4 Bulan (2025)',
-    challenge: 'Mengintegrasikan ratusan sensor IoT real-time dari berbagai jenis perangkat tanpa membebani browser pengguna, sekaligus mempertahankan performa animasi render 120 FPS pada monitor refresh-rate tinggi.',
-    solution: 'Mengembangkan sistem manajemen state berbasis event-driven WebSockets dengan throttle cerdas, digabungkan dengan optimasi rendering hardware-accelerated menggunakan Framer Motion.',
-    highlights: [
-      'Visualisasi pencahayaan 3D real-time menggunakan CSS Grid & SVG Masking.',
-      'Sistem gestur drag-and-drop intuitif untuk mengelompokkan ruangan.',
-      'Dashboard statistik konsumsi energi menggunakan visualisasi D3 modern.'
-    ],
-    galleryImages: [
-      'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&q=80&w=800',
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800'
-    ]
-  },
- 
 ];
 
 export const skillsData: Skill[] = [
@@ -252,45 +77,59 @@ export const timelineData: TimelineItem[] = [
       'Merancang sistem micro-frontends berbasis module federation dengan transisi halus.',
       'Mengembangkan framework animasi internal berbasis Canvas untuk visualisasi big data.'
     ]
-  },
+  }
+];
 
-    {
-    id: 'exp-1',
-    year: 'Agustus 2025 - Agustus 2025',
-    role: 'Freshmen Leader ',
-    company: 'FirstYearProgram(FYP) Binus University',
-    description: 'Guiding new students at the beginning of their studies, providing knowledge about the campus, introducing the culture and helping new students adapt easily.',
+export const certificationsData: TimelineItem[] = [
+  {
+    id: 'cert-1',
+    year: '2026',
+    role: 'Mahir karir bareng Binus Career & SEFAS Group',
+    company: 'Binus Career | Binus University',
+    description: 'Dont just be smart Be heard  How communication skills shape your career, confidence, and oppurtunities',
     achievements: [
-      'Memangkas waktu muat rata-rata aplikasi web utama sebesar 42%.',
-      'Merancang sistem micro-frontends berbasis module federation dengan transisi halus.',
-      'Mengembangkan framework animasi internal berbasis Canvas untuk visualisasi big data.'
+      'Participant',
+    ]
+  },
+  {
+    id: 'cert-2',
+    year: '2026',
+    role: 'Introduction to Financial Literacy | DBS Foundation 2.0',
+    company: 'Dicoding Indonesia',
+    description: 'Kelas ditujukan bagi peserta Coding Camp powered by DBS Foundation 2026 yang ingin belajar mengenai Literasi Finansial. Di akhir kelas, peserta mampu membangun pemahaman yang kuat tentang prinsip-prinsip dasar literasi finansial, menerapkannya dalam pengambilan keputusan keuangan sehari-hari, serta merancang strategi finansial jangka panjang.',
+    achievements: [
+      'Decoding Your Financial Future - A Guide to Navigating Your Finances',
+      'Investing for Your Future',
+      'Loan Management 101 - Smart Borrowing'
     ]
   },
 
     {
-    id: 'exp-1',
-    year: 'Agustus 2025 - Agustus 2025',
-    role: 'Freshmen Leader ',
-    company: 'FirstYearProgram(FYP) Binus University',
-    description: 'Guiding new students at the beginning of their studies, providing knowledge about the campus, introducing the culture and helping new students adapt easily.',
+    id: 'cert-3',
+    year: '2026',
+    role: 'Belajar Dasar Data Science',
+    company: 'Dicoding Indonesia',
+    description: 'Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang data scientist dengan mempelajari konsep dasar data science. Setelah mengikuti kelas, siswa diharapkan mampu mengenal, memahami, dan menelaah dasar-dasar data science dengan baik.',
     achievements: [
-      'Memangkas waktu muat rata-rata aplikasi web utama sebesar 42%.',
-      'Merancang sistem micro-frontends berbasis module federation dengan transisi halus.',
-      'Mengembangkan framework animasi internal berbasis Canvas untuk visualisasi big data.'
+      'The Power of Data',
+      'Fundamental Data Science',
+      'Menjelajahi Analisis Data',
+      'Teknologi dan Tools Pendukung Data Science',
+      'Machine Learning untuk Data Science'
     ]
   },
 
-    {
-    id: 'exp-1',
-    year: 'Agustus 2025 - Agustus 2025',
-    role: 'Freshmen Leader ',
-    company: 'FirstYearProgram(FYP) Binus University',
-    description: 'Guiding new students at the beginning of their studies, providing knowledge about the campus, introducing the culture and helping new students adapt easily.',
+   {
+    id: 'cert-3',
+    year: '2026',
+    role: 'Structured Query Language (SQL) | DBS Foundation 2.0',
+    company: 'Dicoding Indonesia',
+    description: 'Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang data analyst atau data scientist dengan mempelajari bahasa Structured Query Language (SQL). Di akhir kelas, siswa dapat menguasai berbagai query dasar yang sering digunakan dalam mengelola data menggunakan bahasa structured query language (SQL).',
     achievements: [
-      'Memangkas waktu muat rata-rata aplikasi web utama sebesar 42%.',
-      'Merancang sistem micro-frontends berbasis module federation dengan transisi halus.',
-      'Mengembangkan framework animasi internal berbasis Canvas untuk visualisasi big data.'
+      'Pengenalan Data dan Basis Data',
+      'Database Management Systems (DBMS)',
+      'Pengenalan Structured Query Language',
+      'Basic Query',
     ]
   },
 ];
-

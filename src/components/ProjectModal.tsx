@@ -52,7 +52,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           <div className="p-4 sm:px-8 border-b-2 border-black flex items-center justify-between bg-white relative z-10 text-black">
             <span className="font-mono text-xs font-black uppercase text-black flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-black animate-pulse" />
-              DETAIL_KARYA // {project.category}
+              DETAIL PROJECT // {project.category}
             </span>
 
             <button
@@ -60,7 +60,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               className="p-2 px-4 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] flex items-center gap-1.5 bg-white border border-black hover:bg-black hover:text-[#F3F3F3] transition-all rounded-none text-black font-mono text-[10px] uppercase font-bold cursor-pointer"
               aria-label="Tutup Detail"
             >
-              <span>Tutup_Panel</span>
+              <span>CLOSE</span>
               <X className="w-3.5 h-3.5" />
             </button>
           </div>
@@ -91,7 +91,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
 
               {/* Brutalist image label overlay */}
               <div className="absolute top-3 left-3 bg-white border border-black px-2 py-0.5 z-10">
-                <span className="font-mono text-[8.5px] uppercase tracking-wider text-black font-bold">STUDI_KASUS // PRVW_IMAGE</span>
+                <span className="font-mono text-[8.5px] uppercase tracking-wider text-black font-bold">// Preview Image</span>
               </div>
             </div>
 
@@ -107,7 +107,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                     <div className="flex items-center gap-2 pb-2.5 border-b border-black/15">
                       <LayoutGrid className="w-4 h-4 text-black" />
                       <h4 className="font-sans font-bold text-black text-sm sm:text-base uppercase tracking-tight">
-                        Ringkasan Rekayasa / Overview
+                        DESCRIPTION / Overview
                       </h4>
                     </div>
                     <p className="text-[#2A2A2A] font-mono font-light text-xs sm:text-sm leading-relaxed">
@@ -117,7 +117,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
 
                   {/* Tech Stacks Grid */}
                   <div className="flex flex-col gap-3">
-                    <span className="font-mono text-[9px] tracking-widest text-[#2a2a2a] uppercase font-bold">Tumpukan Teknologi // Tech Stack</span>
+                    <span className="font-mono text-[9px] tracking-widest text-[#2a2a2a] uppercase font-bold"> // Tech Stack</span>
                     <div className="flex flex-wrap gap-2 w-full">
                       {project.tags.map((tag) => (
                         <span key={tag} className="px-2.5 py-1 bg-white border border-black text-black font-mono text-[10px] rounded-none shadow-[2px_2px_0px_0px_#000000]">
@@ -133,15 +133,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
                 <div className="lg:col-span-4 flex flex-col gap-6 p-6 bg-white border-2 border-black rounded-none relative shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                   {/* Assignment Context details */}
                   <div className="flex flex-col gap-4 border-b border-black/15 pb-5">
-                    <span className="font-mono text-[9px] tracking-widest text-[#2A2A2A] uppercase font-bold">// METADATA KARYA</span>
-
-                    <div className="flex items-start gap-3 text-xs">
-                      <Calendar className="w-4 h-4 text-black shrink-0 mt-0.5" />
-                      <div>
-                        <p className="font-mono text-[#2A2A2A] text-[8px] tracking-wider uppercase">Durasi Pengerjaan</p>
-                        <p className="font-bold text-black font-mono text-[11px] uppercase">{project.duration}</p>
-                      </div>
-                    </div>
+                    <span className="font-mono text-[9px] tracking-widest text-[#2A2A2A] uppercase font-bold">// Github Preview</span>
                   </div>
 
                   {/* Action Buttons: Github */}
