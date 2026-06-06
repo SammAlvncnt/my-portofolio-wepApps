@@ -2,7 +2,7 @@ import { Project, Skill, TimelineItem, Testimonial } from '../types';
 
 export const projectsData: Project[] = [
   {
-    id: 'gg',
+    id: 'project-retail-sales',
     title: 'Retail Sales Performaance Analysis',
     subtitle: 'Retail Sales Performance Analysis using SQL, Python, and Power BI',
     description: 'The project demonstrates an end-to-end Data Analyst workflow, starting from raw data cleaning to dashboard visualization and business insight generation.',
@@ -14,7 +14,7 @@ export const projectsData: Project[] = [
   },
 
     {
-    id: 'gg',
+    id: 'project-cafe-sales',
     title: 'Cafe Sales Data Analysis',
     subtitle: 'Cafe Sales Data Cleaning & Customer Segmentation Analysis',
     description: 'contains an end-to-end Data Understanding, Quality Assessment, and Data Cleaning project for a café sales dataset. ',
@@ -26,7 +26,7 @@ export const projectsData: Project[] = [
   },
 
     {
-    id: 'gg',
+    id: 'project-sgd-idr',
     title: 'SGD/IDR Exchange Rate Analytics Dashboard',
     subtitle: 'Singapore Dolar (SGD) to Indonesian Rupiah (IDR) Performance Insight',
     description: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.',
@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
   },
 
     {
-    id: 'gg',
+    id: 'project-ecommerce',
     title: 'E-Commerce Sales Dashboard',
     subtitle: 'E-Comerce Sales Dashboard visualization using Tableau',
     description: 'An interactive Tableau dashboard designed to analyze sales performance, monthly profit trends, and product quantity distributions for an e-commerce dataset.',
@@ -120,7 +120,7 @@ export const certificationsData: TimelineItem[] = [
   },
 
    {
-    id: 'cert-3',
+    id: 'cert-4',
     year: '2026',
     role: 'Structured Query Language (SQL) | DBS Foundation 2.0',
     company: 'Dicoding Indonesia',

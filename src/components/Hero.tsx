@@ -101,9 +101,9 @@ export default function Hero() {
 
   // Left-aligned services visual list
   const visualServices = [
-    { label: "/ DATA ANALYST", desc: "EANTHUSIAST" },
-    { label: "/ DATA SCIENCE", desc: "EANTHUSIAST" },
-    { label: "/ ARTIFICIAL INTELIGENCE", desc: "EANTHUSIAST" }
+    { label: "/ DATA ANALYST", desc: "ENTHUSIAST" },
+    { label: "/ DATA SCIENCE", desc: "ENTHUSIAST" },
+    { label: "/ ARTIFICIAL INTELIGENCE", desc: "ENTHUSIAST" }
   ];
 
   return (

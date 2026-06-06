@@ -31,26 +31,26 @@ export default function Contact() {
     setErrorMsg(null);
 
     try {
-      // Ganti 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', dan 'YOUR_PUBLIC_KEY' 
-      // dengan ID yang Anda dapatkan dari dashboard EmailJS
+      // PASTIKAN: Ganti string di bawah ini dengan ID asli dari dashboard EmailJS Anda
+      // Buka https://dashboard.emailjs.com/
       const result = await emailjs.send(
-        'YOUR_SERVICE_ID', 
-        'YOUR_TEMPLATE_ID', 
+        'service_xxxxxxx', // Contoh: 'service_gmail' atau ID unik lainnya
+        'template_xxxxxxx', // Contoh: 'template_abc123'
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           reply_to: formData.email,
         },
-        'YOUR_PUBLIC_KEY'
+        'your_public_key_here' // Contoh: 'user_A1B2C3D4...'
       );
 
       if (result.status === 200) {
         setIsSubmitted(true);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error('EmailJS Error:', error);
-      setErrorMsg('Gagal mengirim pesan. Silakan coba lagi atau hubungi via LinkedIn.');
+      setErrorMsg(`Gagal: ${error?.text || 'Cek koneksi atau ID EmailJS Anda'}`);
     } finally {
       setIsSubmitting(false);
     }
