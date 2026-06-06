@@ -73,9 +73,9 @@ export const timelineData: TimelineItem[] = [
     company: 'FirstYearProgram(FYP) Binus University',
     description: 'Guiding new students at the beginning of their studies, providing knowledge about the campus, introducing the culture and helping new students adapt easily.',
     achievements: [
-      'Memangkas waktu muat rata-rata aplikasi web utama sebesar 42%.',
-      'Merancang sistem micro-frontends berbasis module federation dengan transisi halus.',
-      'Mengembangkan framework animasi internal berbasis Canvas untuk visualisasi big data.'
+      'Leadership',
+      'Mentoring',
+      'Public Speaking'
     ]
   }
 ];
